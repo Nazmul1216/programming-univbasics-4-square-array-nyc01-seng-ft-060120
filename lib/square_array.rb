@@ -1,9 +1,11 @@
 def square_array(array)
  index=0 
+ new_array=[]
  while index<array.length do
-   p array[index]
+    new_array.push(array[index])
    index+=1
  end
+ p new_array
 end
 
 
