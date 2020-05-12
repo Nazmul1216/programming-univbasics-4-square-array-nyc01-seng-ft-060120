@@ -3,6 +3,7 @@ def square_array(array)
  while index<array.length do
    p array[index]
    index+=1
+ end
 end
 
 
